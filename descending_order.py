@@ -8,6 +8,11 @@
 #Input: `123456789`
 #Output: `987654321`
 
+№ Красивое решение:
+№ def Descending_Order(num):
+№    return int("".join(sorted(str(num), reverse=True)))
+    
+
 
 def descending_order(num):
     num=str(num)
